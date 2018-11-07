@@ -2,12 +2,12 @@ puts 'Введите имя: '
 name = gets.chomp
 
 puts 'Введите Вес: '
-weight = gets.chomp.to_i
+weight = gets.chomp.to_f
 
-weight -= 110
+ideal_weight = weight - 110
 
-if weight > 0
-    puts "Ваше имя #{name}, ваш идеальный вес #{weight} кг."
+if ideal_weight > 0
+    puts "Ваше имя #{name}, ваш идеальный вес #{ideal_weight} кг"
 else 
     puts 'Ваше имя #{name}, ваш вес уже оптимальный'
-end
+end 
