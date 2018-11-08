@@ -8,6 +8,6 @@ ideal_weight = weight - 110
 
 if ideal_weight > 0
   puts "Ваше имя #{name}, ваш идеальный вес #{ideal_weight} кг"
-else 
+else
   puts 'Ваше имя #{name}, ваш вес уже оптимальный'
-end 
+end
